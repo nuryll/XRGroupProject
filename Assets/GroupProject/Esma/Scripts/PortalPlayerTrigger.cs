@@ -7,6 +7,7 @@ public class PortalPlayerTrigger : MonoBehaviour
     [SerializeField] private GameObject targetPortal360video; // First 360 video sphere
     [SerializeField] private GameObject future360video;       // Second 360 video sphere
     [SerializeField] private GameObject targetFloor;          // Floor to deactivate
+    [SerializeField] private GameObject modelPortal;          // Final portal model to deactivate at the end
 
     private bool triggered;
 
@@ -35,15 +36,19 @@ public class PortalPlayerTrigger : MonoBehaviour
         // Wait for 5 seconds while first video plays
         yield return new WaitForSeconds(5f);
 
-        // Activate second video sphere FIRST (important: prevents white flash)
+        // Activate second video sphere
         if (future360video != null)
             future360video.SetActive(true);
 
-        // Wait one frame so the camera renders the new sphere
+        // Wait one frame to ensure XR camera renders the new sphere
         yield return null;
 
-        // Now safely deactivate the first sphere (no flash possible)
+        // Deactivate first video sphere
         if (targetPortal360video != null)
             targetPortal360video.SetActive(false);
+
+        // Finally deactivate the portal model after everything
+        if (modelPortal != null)
+            modelPortal.SetActive(false);
     }
 }
