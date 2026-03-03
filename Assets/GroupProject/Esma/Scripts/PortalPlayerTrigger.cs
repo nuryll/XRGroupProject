@@ -6,7 +6,7 @@ public class PortalPlayerTrigger : MonoBehaviour
     [Header("Objects")]
     [SerializeField] private GameObject portal360video; // 360 video sphere
     [SerializeField] private GameObject skybox;       //Skybox sphere
-    [SerializeField] private GameObject firsEnvironment;          // Floor to deactivate
+    [SerializeField] private GameObject firstEnvironment;          // Floor to deactivate
     [SerializeField] private GameObject modelPortal;          // Final portal model to deactivate at the end
 
     private bool triggered;
@@ -20,8 +20,8 @@ public class PortalPlayerTrigger : MonoBehaviour
             triggered = true;
 
             // Deactivate the floor immediately
-            if (firsEnvironment != null)
-                firsEnvironment.SetActive(false);
+            if (firstEnvironment != null)
+                firstEnvironment.SetActive(false);
 
             StartCoroutine(SwitchSequence());
         }
