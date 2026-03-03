@@ -699,7 +699,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5309b09b7ce9ec44281ab9103bdf7fc5, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c93c9fe5887dd44fb329111412bc7dd, type: 3}
       propertyPath: m_Name
-      value: Past_skybox (1)
+      value: skybox 2000
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8c93c9fe5887dd44fb329111412bc7dd, type: 3}
       propertyPath: m_IsActive
@@ -2024,10 +2024,10 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8c93c9fe5887dd44fb329111412bc7dd, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 05698462d23f5c645aee5a74c88afa0a, type: 2}
+      objectReference: {fileID: 2100000, guid: 77e4473de1c7d4c048ebfc6769c23397, type: 2}
     - target: {fileID: 919132149155446097, guid: 8c93c9fe5887dd44fb329111412bc7dd, type: 3}
       propertyPath: m_Name
-      value: Future_skybox (1)
+      value: skybox 2050
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8c93c9fe5887dd44fb329111412bc7dd, type: 3}
       propertyPath: m_IsActive
