@@ -682,7 +682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6689036041284674117, guid: 8ed95e6ba8cd841a49d13c8bfca30506, type: 3}
       propertyPath: m_Name
-      value: old_map_3d_model
+      value: Map_1900
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 8ed95e6ba8cd841a49d13c8bfca30506, type: 3}
       propertyPath: m_LocalScale.x
@@ -1885,7 +1885,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6689036041284674117, guid: 8c274840c54594a849385e29c9f35ff6, type: 3}
       propertyPath: m_Name
-      value: button
+      value: button_1950
+      objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: 8c274840c54594a849385e29c9f35ff6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: 8c274840c54594a849385e29c9f35ff6, type: 3}
       propertyPath: m_LocalScale.x
@@ -2046,7 +2050,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1267998944
 Transform:
   m_ObjectHideFlags: 0
