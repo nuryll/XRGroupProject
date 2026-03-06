@@ -5014,7 +5014,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472998384}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 747cccea2ebbac34abd28a9d7006b1a1, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7d712492ee0bb6143971fc2a28b5132b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -5024,7 +5024,7 @@ VideoPlayer:
   m_TargetMaterialProperty: 
   m_RenderMode: 3
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -5522,7 +5522,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1594907119}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 747cccea2ebbac34abd28a9d7006b1a1, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7d712492ee0bb6143971fc2a28b5132b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -5532,7 +5532,7 @@ VideoPlayer:
   m_TargetMaterialProperty: 
   m_RenderMode: 3
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -6784,7 +6784,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852099786}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 747cccea2ebbac34abd28a9d7006b1a1, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7d712492ee0bb6143971fc2a28b5132b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -6794,7 +6794,7 @@ VideoPlayer:
   m_TargetMaterialProperty: 
   m_RenderMode: 3
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -6922,7 +6922,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1903204703}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 747cccea2ebbac34abd28a9d7006b1a1, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 7d712492ee0bb6143971fc2a28b5132b, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -6932,7 +6932,7 @@ VideoPlayer:
   m_TargetMaterialProperty: 
   m_RenderMode: 3
   m_AspectRatio: 2
-  m_DataSource: 1
+  m_DataSource: 0
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
@@ -7305,7 +7305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_LocalPosition.y
