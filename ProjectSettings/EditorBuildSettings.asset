@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 0
+  - enabled: 1
     path: Assets/GroupProject/Esma/Scenes/Esma.unity
     guid: bf9f6a284184c6a49b1c216c4c5f96c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/GroupProject/Theekshani/Scenes/Theekshani.unity
     guid: 4e5bf28d3e14da04aa38c3965b9566c8
   m_configObjects:
