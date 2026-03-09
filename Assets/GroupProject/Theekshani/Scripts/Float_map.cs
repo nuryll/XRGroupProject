@@ -4,8 +4,9 @@ public class FloatObject : MonoBehaviour
 {
     public float speed = 1f;
     public float height = 0.02f;
+    public float rotateSpeed = 20f;
 
-    Vector3 startPos;
+    private Vector3 startPos;
 
     void Start()
     {
@@ -14,6 +15,9 @@ public class FloatObject : MonoBehaviour
 
     void Update()
     {
-        transform.position = startPos + new Vector3(0, Mathf.Sin(Time.time * speed) * height, 0);
+        float newY = startPos.y + Mathf.Sin(Time.time * speed) * height;
+        transform.position = new Vector3(startPos.x, newY, startPos.z);
+
+        transform.Rotate(0, rotateSpeed * Time.deltaTime, 0);
     }
 }
