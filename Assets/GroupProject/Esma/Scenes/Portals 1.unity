@@ -292,7 +292,7 @@ Transform:
   m_GameObject: {fileID: 25330209}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.9829903, y: 0, z: 2.36343}
+  m_LocalPosition: {x: 5.9829903, y: -0.09, z: 2.36343}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19018,6 +19018,53 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2774220344278030320, guid: dc5211ecfb9934adbbae65f3a1f41480, type: 3}
   m_PrefabInstance: {fileID: 2118211226}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1831455705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1831455707}
+  - component: {fileID: 1831455706}
+  m_Layer: 0
+  m_Name: WebSocketClient
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1831455706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831455705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee1741b8bc7e4d2e9f19b05af2114a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WebSocketClientExample
+  serverIP: 192.168.0.100
+  serverPort: 8081
+  ledIntensity: 0
+--- !u!4 &1831455707
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831455705}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.73, y: 0.11953, z: 0.55}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1831998742
 GameObject:
   m_ObjectHideFlags: 0
@@ -22039,6 +22086,7 @@ SceneRoots:
   - {fileID: 1933484683}
   - {fileID: 454512653}
   - {fileID: 890608114}
-  - {fileID: 1108356302}
   - {fileID: 1987008544}
+  - {fileID: 1108356302}
   - {fileID: 627858410}
+  - {fileID: 1831455707}
