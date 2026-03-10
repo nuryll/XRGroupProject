@@ -4769,7 +4769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ee1741b8bc7e4d2e9f19b05af2114a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WebSocketClientExample
-  serverIP: 192.168.0.100
+  serverIP: 10.204.0.58
   serverPort: 8081
   ledIntensity: 0
 --- !u!4 &1831455707
