@@ -127,56 +127,14 @@ public class WebSocketClientExample : MonoBehaviour
     public void IncomingMessageParser(string msg)
     {
         string valueParsed = msg.Substring(msg.IndexOf(":") + 1);
+
         if (msg.Contains("restartButton") && valueParsed == "1")
         {
-            Debug.Log("External Restart Button Pressed via WebSocket");
-            StartCoroutine(RestartSceneXR());
+            Debug.Log("Restart triggered via WebSocket");
+
+            // Call the separate restart script
+            RestartManager.Instance.RestartScene();
         }
-    }
-
-    private IEnumerator RestartSceneXR()
-    {
-        // Close websocket safely
-        if (websocket != null)
-        {
-            var closeTask = websocket.Close();
-            while (!closeTask.IsCompleted)
-                yield return null;
-        }
-
-        // Optional: reset static/singleton variables here
-        ResetStaticData();
-
-        // Reload scene
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.buildIndex);
-
-        // Wait a frame so scene objects exist
-        yield return null;
-
-        // Find XR Origin by tag
-        GameObject xrOrigin = GameObject.FindWithTag("Player");
-        if (xrOrigin != null)
-        {
-            // Reset position and rotation
-            xrOrigin.transform.position = Vector3.zero;
-            xrOrigin.transform.rotation = Quaternion.identity;
-
-            // Optional: reset controllers offsets if needed
-            foreach (Transform child in xrOrigin.transform)
-            {
-                // Example: reset controllers to local 0,0,0
-                child.localPosition = Vector3.zero;
-                child.localRotation = Quaternion.identity;
-            }
-        }
-    }
-
-    private void ResetStaticData()
-    {
-        // Example: reset global game data
-        // GameManager.score = 0;
-        // GameManager.level = 1;
     }
 
 
