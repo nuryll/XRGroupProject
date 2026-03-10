@@ -1,0 +1,78 @@
+[33m4b8fa42[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Track video files with Git LFS
+[33m6f6274c[m added button
+[33m6783aa5[m Fix floor problem
+[33m7d6b273[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33m54deadc[m Update RestartManager
+[33m418774d[m deleted meta file
+[33m6683627[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33ma1e686b[m Create RestartManager.cs
+[33m506b14b[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33m994adb4[m saved the scene
+[33m691c75b[m Test restart
+[33mc5c0faf[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33m1e78f13[m Test restart button
+[33mcfb83c2[m resized island
+[33m438ceb3[m added island object
+[33m0b1ac84[m added welcome sound for 2000
+[33m0f58792[m created audio script
+[33me32ca81[m uploaded images for 2000 and 2050
+[33m58bef03[m removed old scene
+[33mc4a7b83[m Create apk
+[33m94859fd[m Change first scene
+[33m6996349[m Test 2000 and 2050 environments
+[33ma1002e6[m Import the Websockets and create restart button
+[33m8040ced[m Add haptic feedback
+[33m3f08765[m Update first environment in Portal1 scene
+[33m073349d[m Build apk
+[33m61edc96[m Create Portals.unity.meta
+[33m6a9f9f4[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33md1f5481[m Forest_Scene_Update
+[33mdbf5990[m Revise README for XR Time Machine project
+[33m6942912[m Fix the positions of objects
+[33m42c8ccf[m Test cube skybox
+[33m0a61456[m Update Scene, Portals, skybox, 0bjects positions
+[33me70ccc8[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33m1c3efe7[m Duplicate the portal scene
+[33m12fc85d[m Create new portal1 scene
+[33m7abe51d[m Change again XR Origin position after test
+[33m836f600[m Change position of XR Origin in the scene
+[33m9ef117d[m Remove teleportation area in the scene
+[33mc77e35f[m Create 1950 portal, environment, skybox for main scene
+[33mbea5332[m Create 1900 Portal, environment, 360 video, skybox
+[33ma868580[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33m982d0db[m name updated
+[33m2980832[m Past _scene_interactables1900_1950
+[33ma78b55e[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33m3ccdf72[m Resolve merge conflicts
+[33mf714099[m Create All Portals for name of Portals scene
+[33meb7bfeb[m 1900 _interactable object
+[33mf08891a[m Create Portals for the years 1900,1950,2000,2050
+[33mc846be3[m Fix XR Origin from moving down during Portal360Videos playback
+[33m886b1e6[m Add transparent floor to skybox environments
+[33m6d7d914[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33mba3dd83[m Optimize 360 video playback
+[33ma83a53d[m Merge branch 'main' of https://github.com/nuryll/XRGroupProject
+[33mdc24f5b[m added 2050 world to nikou's scene
+[33m27cb173[m Set Android override to ASTC 6x6 for 8K sky texture
+[33mdca7810[m add Nikou's scene
+[33m083db89[m Delete 360Videos from the scene
+[33mee6450c[m Created scenes for Theekshani and Nikou
+[33m28985ef[m Test Skybox and materials
+[33m4223848[m added new material to theekshani
+[33m9635dd2[m Create .DS_Store
+[33m1b05e58[m added material 1950nfor theekshani
+[33m1e8e73c[m imported "test" skybox
+[33m310aa0d[m Test Portals' 360Videos
+[33m0987ea0[m Create different portals and Import Skybox materials
+[33m4c5b1fb[m Update PortalPlayerTrigger.cs
+[33m69d8c37[m Test environment
+[33m68f3953[m Create PortalPlayerTrigger.cs
+[33m57adc29[m Update PortalGate_Controller.cs
+[33mae30f8f[m Update Portal_Controller.cs
+[33m7ea364d[m Import RunesandPortals from Unity AssetStore
+[33m4a495fd[m Import Oculus
+[33m928b959[m Test 360Videos
+[33m205e8b7[m Test VR360Video
+[33m5c0e4cc[m Create Nikou and Theekshani folder
+[33m945b31a[m Initial commit
+[33mb27df41[m Initial commit
