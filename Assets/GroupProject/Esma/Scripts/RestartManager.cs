@@ -8,11 +8,11 @@ public class RestartManager : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton pattern so it can be called from anywhere
+        // Singleton so it can be called from anywhere
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Optional if you want it to persist
+            DontDestroyOnLoad(gameObject); // Optional: persists across scene reloads
         }
         else
         {
@@ -20,7 +20,7 @@ public class RestartManager : MonoBehaviour
         }
     }
 
-    // Public method to restart the scene
+    // Call this to restart the scene
     public void RestartScene()
     {
         StartCoroutine(RestartRoutine());
@@ -28,17 +28,17 @@ public class RestartManager : MonoBehaviour
 
     private IEnumerator RestartRoutine()
     {
-        // Wait a frame to allow any pre-restart tasks
+        // Wait one frame
         yield return null;
 
-        // Reload the active scene
+        // Reload active scene
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.buildIndex);
 
-        // Wait another frame so the scene loads
+        // Wait another frame to allow objects to initialize
         yield return null;
 
-        // Reset XR Origin after scene loads
+        // Reset XR Origin position & rotation
         ResetXROrigin();
     }
 
@@ -50,12 +50,20 @@ public class RestartManager : MonoBehaviour
             xrOrigin.transform.position = Vector3.zero;
             xrOrigin.transform.rotation = Quaternion.identity;
 
-            // Reset child objects (controllers) if needed
+            // Reset child objects (controllers)
             foreach (Transform child in xrOrigin.transform)
             {
                 child.localPosition = Vector3.zero;
                 child.localRotation = Quaternion.identity;
             }
         }
+    }
+
+    // Optional: reset static variables or singletons here
+    private void ResetStaticData()
+    {
+        // Example:
+        // GameManager.score = 0;
+        // GameManager.level = 1;
     }
 }

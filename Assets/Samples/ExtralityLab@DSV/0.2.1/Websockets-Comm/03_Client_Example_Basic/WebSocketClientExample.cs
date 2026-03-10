@@ -132,8 +132,11 @@ public class WebSocketClientExample : MonoBehaviour
         {
             Debug.Log("Restart triggered via WebSocket");
 
-            // Call the separate restart script
-            RestartManager.Instance.RestartScene();
+            // Call the separate RestartManager
+            if (RestartManager.Instance != null)
+            {
+                RestartManager.Instance.RestartScene();
+            }
         }
     }
 
