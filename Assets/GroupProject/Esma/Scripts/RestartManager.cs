@@ -8,11 +8,11 @@ public class RestartManager : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton so it can be called from anywhere
+        // Singleton pattern
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Optional: persists across scene reloads
+            // Remove DontDestroyOnLoad to ensure full reset
         }
         else
         {
@@ -28,40 +28,25 @@ public class RestartManager : MonoBehaviour
 
     private IEnumerator RestartRoutine()
     {
-        // Wait one frame
+        // Reset static variables or global data
+        ResetStaticData();
+
+        // Wait a frame
         yield return null;
 
-        // Reload active scene
+        // Reload the active scene
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.buildIndex);
 
-        // Wait another frame to allow objects to initialize
+        // Wait another frame to ensure objects initialize
         yield return null;
 
-        // Reset XR Origin position & rotation
-        ResetXROrigin();
+        // XR Origin and all objects will start fresh as in scene setup
     }
 
-    private void ResetXROrigin()
-    {
-        GameObject xrOrigin = GameObject.FindWithTag("Player");
-        if (xrOrigin != null)
-        {
-            xrOrigin.transform.position = Vector3.zero;
-            xrOrigin.transform.rotation = Quaternion.identity;
-
-            // Reset child objects (controllers)
-            foreach (Transform child in xrOrigin.transform)
-            {
-                child.localPosition = Vector3.zero;
-                child.localRotation = Quaternion.identity;
-            }
-        }
-    }
-
-    // Optional: reset static variables or singletons here
     private void ResetStaticData()
     {
+        // Reset any static variables or singletons
         // Example:
         // GameManager.score = 0;
         // GameManager.level = 1;

@@ -132,7 +132,7 @@ public class WebSocketClientExample : MonoBehaviour
         {
             Debug.Log("Restart triggered via WebSocket");
 
-            // Call the separate RestartManager
+            // Call RestartManager to fully reset the scene
             if (RestartManager.Instance != null)
             {
                 RestartManager.Instance.RestartScene();
