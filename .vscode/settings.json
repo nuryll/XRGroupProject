@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "XRGroupProject.slnx"
+    "dotnet.defaultSolution": "XRGroupProject-1.slnx"
 }
