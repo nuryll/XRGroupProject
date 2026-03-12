@@ -1,44 +1,27 @@
-# XR Time Machine
+# ChronoPortals
 
 ## Poster
-HERE POSTER
+Add project poster image here.
 
 ---
 
+# Introduction
 
-## Introduction
-XR Time Machine is an immersive experience that lets users travel through time and explore how human life and technology have changed. Users can move through four eras—1900, 1950, 2000, and 2050—and interact with objects, portals, and information panels in fully immersive environments.
+**ChronoPortals** is an immersive Extended Reality (XR) experience that allows users to travel through different periods of human history and technological development. By entering interactive portals, users can explore how society, technology, and everyday life have evolved across time.
 
-The experience takes users on a journey through four different years:
+The experience takes users through four different eras:
 
-- 1900 – Early Industrial Life  
-- 1950 – Post-War Technological Development  
-- 2000 – Digital and Internet Age  
-- 2050 – Future Smart Technology Society  
+- **1900 – Early Industrial Life**
+- **1950 – Post-War Technological Development**
+- **2000 – Digital and Internet Age**
+- **2050 – Future Smart Technology Society**
 
-Each environment represents a different stage in technological development and daily life.
+Each environment represents a unique stage of technological advancement and social change.
 
-The problem we noticed is that learning about history or technology evolution from books or videos is passive. Users often struggle to imagine how life looked or how technology impacted everyday life.
+Traditional learning about history or technological evolution through books or videos is often passive. It can be difficult for users to imagine how people lived or how technology influenced daily life in different periods.
 
-XR Time Machine solves this by letting users step into the past and future, explore environments, and interact with objects. VR makes it memorable and engaging because users feel like they are physically traveling through time.
+**ChronoPortals solves this problem by allowing users to experience history directly in immersive virtual environments.** Through exploration and interaction, users can observe and understand the technological transformation of society.
 
----
-
-# Screenshots
-
-Below are some example environments from the experience.
-
-### 1900 – Early Industrial Life
-IMAGE HERE
-
-### 1950 – Post-War Technological Development
-IMAGE HERE
-
-### 2000 – Digital and Internet Age
-IMAGE HERE
-
-### 2050 – Future Smart Technology Society
-IMAGE HERE
 
 ---
 
@@ -67,33 +50,42 @@ We tested different portal designs, 360° videos, 360° images, and object inter
 
 ## Features
 
+ChronoPortals includes the following features:
+
 - Four immersive environments representing **1900, 1950, 2000, and 2050**
 - Direct interactions: users hover over or touch objects to open portals
-- 360° videos for realistic time travel transitions
-- Haptic and audio feedback for portals, objects, and interactions
-- Educational information panels explaining historical and technological context
+- Interactive portals connecting the different eras
+- 360° skybox environments for immersive scenes
+- Audio and haptic feedback for user interactions
+- Information panels
 - Looped experience: after visiting 2050, users return to the present
 - Supports 6 degrees of freedom: users can move their head and body freely
+ - Tangible interaction system using external hardware
+- WebSocket communication between Unity and ESP32
+- Physical restart button to restart the entire experience
 
 Watch the demo video here: XR Time Machine Demo
 
 ---
 
-# Project Structure
+# Screenshots
 
-The repository is organized as follows:
+Below are some example environments from the experience.
 
-```
-XR-Time-Machine/
-│
-├── Assets/                # Unity assets, scenes, models, scripts
-├── Packages/              # Unity package dependencies
-├── ProjectSettings/       # Unity project settings
-│
-├── docs/                  # Images, poster, screenshots, video references
-│
-├── README.md              # Project documentation
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9fea6c5b-d08c-460f-aad1-560993c374ae" width="500">
+  <img src="https://github.com/user-attachments/assets/8a2ad40f-a8dd-4859-9799-60f3be548632" width="500">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d835de12-25ab-4916-a64c-44ee6a835587" width="500">
+  <img src="https://github.com/user-attachments/assets/aef36d3a-7f42-442c-81d2-62a0d65f2d23" width="500">
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3bd36b35-9c55-4a1a-a185-ae193c026d25" width="500">
+  <img src="https://github.com/user-attachments/assets/c04f6d13-c410-4dc4-9aee-d9a0a9ea262d" width="500">
+</p>
 
 ---
 
@@ -202,7 +194,7 @@ To install and run XR Time Machine on Meta Quest 2 or Android:
 
 | Platform | Device | Requirements | Commands / Steps |
 |--------|--------|-------------|----------------|
-| Android | Meta Quest 2 | Android 19+, XR Plugin Management, OpenXR | `git clone https://github.com/user/xr-time-machine.git` <br> `cd xr-time-machine` <br> open MainScene.unity <br> Switch Platform to Android <br> Build and Run |
+| Android | Meta Quest 2 | Android 19+, XR Plugin Management, OpenXR | `git clone https://github.com/nuryll/XRGroupProject.git` <br> open MainScene.unity <br> Switch Platform to Android <br> Build and Run |
 
 ### Dependencies and Libraries
 
@@ -214,14 +206,53 @@ Note: Direct Interactors are used for hand interactions; Ray Interactors are not
 
 ---
 
+# Tangible Interaction
+
+ChronoPortals integrates **tangible interaction** by connecting physical hardware with the virtual experience.
+
+This is achieved using an **ESP32 microcontroller** that communicates with Unity through **WebSocket communication**.
+
+Through this system, physical actions performed in the real world can trigger events inside the VR environment.
+
+---
+
+## Physical Restart Button
+
+A **physical restart button** is connected to the ESP32 microcontroller.
+
+When the button is pressed:
+
+1. The ESP32 sends a WebSocket message to Unity.
+2. Unity receives the message and restarts the VR experience.
+
+---
+
+# Hardware Setup (ESP32 + VR Integration)
+
+The tangible interaction system uses an **ESP32 microcontroller**, a **physical button**, and a **WiFi network** to communicate with the Unity VR application.
+
+---
+
+## Hardware Components
+
+The hardware setup includes:
+
+- ESP32 microcontroller
+- Physical push button
+- WiFi network
+- Meta Quest 2 headset running the Unity application
+
+---
+
 # Usage
 
 - Moving around: physically walk in your space; smooth movement is optional  
-- Interacting with objects: hover or touch objects with controllers to open portals  
-- Portals: each portal represents a different era. Hover over objects to unlock the next time period  
-- Information panels: access historical facts and technological context  
+- Interacting with objects: hover or touch objects to open portals  
+- Portals: Touching or interacting with objects activates **ChronoPortals**, which transport users to another time period.  
 - Looping: after reaching 2050, return to the present environment and restart the journey  
-- Audio & Haptics: users receive sound and vibration feedback when interacting with objects and portals  
+- Audio & Haptics: users receive sound and vibration feedback when interacting with objects and portals
+- Restart: The experience can be restarted by pressing the **physical  restart button connected to the ESP32**.
+
 
 ### Tips for best experience
 
@@ -233,13 +264,15 @@ Note: Direct Interactors are used for hand interactions; Ray Interactors are not
 
 # References
 
-HERE COME SOME REFERENCES
+- [Meta Interaction SDK Samples](https://www.meta.com/en-gb/experiences/interaction-sdk-samples/5605166159514983/) – Official Meta documentation and sample projects for hand interactions in VR.
+- [Unity XR Interaction Toolkit Documentation](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@latest) – Unity official documentation for XRIT setup and usage.
+- [OpenXR Plugin for Unity](https://docs.unity3d.com/Packages/com.unity.xr.openxr@latest) – Unity OpenXR package documentation for VR/AR cross-platform support.
 
 ---
 
 # Contributors
 
-Group 5 – XR Time Machine
-
-OUR NAMES COME HERE
+- Esma Nur Yucel
+- Nikou Yousefzadeh Gandovani
+- Theekshani Gunarathna
 
