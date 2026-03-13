@@ -1,7 +1,10 @@
 # ChronoPortals
 
 ## Poster
-Add project poster image here.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea2bcc72-ceb3-495c-b3a7-23a11bf91e85" width="400">
+</p>
 
 ---
 
@@ -241,6 +244,10 @@ The hardware setup includes:
 - Physical push button
 - WiFi network
 - Meta Quest 2 headset running the Unity application
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/878d2be3-ddb7-43d5-b02d-8e79ea4ec330" width="400">
+</p>
 
 ---
 
