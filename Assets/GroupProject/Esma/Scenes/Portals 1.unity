@@ -1085,6 +1085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PF_Rune
       objectReference: {fileID: 0}
+    - target: {fileID: 6042889729242276098, guid: c147b48bbe2dc60458848a98f4dafe92, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5687,67 +5691,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1083385037}
   m_SourcePrefab: {fileID: 100100000, guid: 88246f8e9c3765d49be8da34eca3c630, type: 3}
---- !u!1 &1387235230 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1670256624, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1987008544}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1387235232 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4238984354899526239, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1987008544}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387235230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b734f2bd29eeddd4d85afb0c266228c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1387235236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1387235230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd0b9921bce4eeb49bd05815b1135ac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Feedback.SimpleHapticFeedback
-  m_InteractorSourceObject: {fileID: 0}
-  m_HapticImpulsePlayer: {fileID: 1387235232}
-  m_PlaySelectEntered: 0
-  m_SelectEnteredData:
-    m_Amplitude: 0.5
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlaySelectExited: 0
-  m_SelectExitedData:
-    m_Amplitude: 0.5
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlaySelectCanceled: 0
-  m_SelectCanceledData:
-    m_Amplitude: 0.5
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlayHoverEntered: 1
-  m_HoverEnteredData:
-    m_Amplitude: 0.25
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlayHoverExited: 0
-  m_HoverExitedData:
-    m_Amplitude: 0.25
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlayHoverCanceled: 0
-  m_HoverCanceledData:
-    m_Amplitude: 0.25
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_AllowHoverHapticsWhileSelecting: 0
 --- !u!1 &1463022953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 236096641524225308, guid: 7862827fb04e14a4eb750731598b905b, type: 3}
@@ -6513,67 +6456,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1854018026 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 202364687, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1987008544}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1854018027 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5967689310316253315, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1987008544}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854018026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b734f2bd29eeddd4d85afb0c266228c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1854018032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1854018026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd0b9921bce4eeb49bd05815b1135ac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Feedback.SimpleHapticFeedback
-  m_InteractorSourceObject: {fileID: 0}
-  m_HapticImpulsePlayer: {fileID: 1854018027}
-  m_PlaySelectEntered: 0
-  m_SelectEnteredData:
-    m_Amplitude: 0.5
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlaySelectExited: 0
-  m_SelectExitedData:
-    m_Amplitude: 0.5
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlaySelectCanceled: 0
-  m_SelectCanceledData:
-    m_Amplitude: 0.5
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlayHoverEntered: 1
-  m_HoverEnteredData:
-    m_Amplitude: 0.25
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlayHoverExited: 0
-  m_HoverExitedData:
-    m_Amplitude: 0.25
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_PlayHoverCanceled: 0
-  m_HoverCanceledData:
-    m_Amplitude: 0.25
-    m_Duration: 0.1
-    m_Frequency: 0
-  m_AllowHoverHapticsWhileSelecting: 0
 --- !u!4 &1885207624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7014698110007149393, guid: 5da106d590ad67e44a0e5cb20ac71650, type: 3}
@@ -6716,104 +6598,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 580146356485001126, guid: 7862827fb04e14a4eb750731598b905b, type: 3}
   m_PrefabInstance: {fileID: 1572360569}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1987008544
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1178791450436251564, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_RequestedTrackingOriginMode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_Name
-      value: XR Origin (XR Rig)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.87
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1987008546}
-    - targetCorrespondingSourceObject: {fileID: 202364687, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1854018032}
-    - targetCorrespondingSourceObject: {fileID: 1670256624, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1387235236}
-  m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
---- !u!1 &1987008545 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-  m_PrefabInstance: {fileID: 1987008544}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1987008546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987008545}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01f69dc1cb084aa42b2f2f8cd87bc770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Locomotion.Teleportation.TeleportationProvider
-  m_Mediator: {fileID: 0}
-  m_TransformationPriority: 0
-  m_DelayTime: 0
 --- !u!4 &2007054669 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7131637462201400063, guid: 7862827fb04e14a4eb750731598b905b, type: 3}
@@ -7108,7 +6892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_LocalPosition.y
@@ -7717,7 +7501,6 @@ SceneRoots:
   - {fileID: 890608114}
   - {fileID: 1831455707}
   - {fileID: 1222104070}
-  - {fileID: 1987008544}
+  - {fileID: 2099717467}
   - {fileID: 1108356302}
   - {fileID: 465812802}
-  - {fileID: 2099717467}

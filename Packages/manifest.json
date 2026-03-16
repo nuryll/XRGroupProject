@@ -15,8 +15,6 @@
     "com.unity.xr.hands": "1.7.3",
     "com.unity.xr.interaction.toolkit": "3.3.0",
     "com.unity.xr.management": "4.5.3",
-    "com.unity.xr.meta-openxr": "2.4.0",
-    "com.unity.xr.oculus": "4.5.4",
     "com.unity.xr.openxr": "1.16.0",
     "se.su.dsv.extralitylab.unity": "https://gitea.dsv.su.se/ExtralityLab/se.su.dsv.extralitylab.unity.git",
     "com.unity.modules.accessibility": "1.0.0",
