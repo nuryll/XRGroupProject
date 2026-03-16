@@ -1,7 +1,10 @@
 # ChronoPortals
 
 ## Poster
-Add project poster image here.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ea2bcc72-ceb3-495c-b3a7-23a11bf91e85" width="400">
+</p>
 
 ---
 
@@ -73,18 +76,18 @@ Watch the demo video here: XR Time Machine Demo
 Below are some example environments from the experience.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9fea6c5b-d08c-460f-aad1-560993c374ae" width="500">
-  <img src="https://github.com/user-attachments/assets/8a2ad40f-a8dd-4859-9799-60f3be548632" width="500">
+  <img src="https://github.com/user-attachments/assets/9fea6c5b-d08c-460f-aad1-560993c374ae" width="400">
+  <img src="https://github.com/user-attachments/assets/8a2ad40f-a8dd-4859-9799-60f3be548632" width="400">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d835de12-25ab-4916-a64c-44ee6a835587" width="500">
-  <img src="https://github.com/user-attachments/assets/aef36d3a-7f42-442c-81d2-62a0d65f2d23" width="500">
+  <img src="https://github.com/user-attachments/assets/d835de12-25ab-4916-a64c-44ee6a835587" width="400">
+  <img src="https://github.com/user-attachments/assets/aef36d3a-7f42-442c-81d2-62a0d65f2d23" width="400">
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3bd36b35-9c55-4a1a-a185-ae193c026d25" width="500">
-  <img src="https://github.com/user-attachments/assets/c04f6d13-c410-4dc4-9aee-d9a0a9ea262d" width="500">
+  <img src="https://github.com/user-attachments/assets/3bd36b35-9c55-4a1a-a185-ae193c026d25" width="400">
+  <img src="https://github.com/user-attachments/assets/c04f6d13-c410-4dc4-9aee-d9a0a9ea262d" width="400">
 </p>
 
 ---
@@ -241,6 +244,10 @@ The hardware setup includes:
 - Physical push button
 - WiFi network
 - Meta Quest 2 headset running the Unity application
+  
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/878d2be3-ddb7-43d5-b02d-8e79ea4ec330" width="400">
+</p>
 
 ---
 
