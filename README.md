@@ -19,6 +19,21 @@ The experience takes users through four different eras:
 - **2000 – Digital and Internet Age**
 - **2050 – Future Smart Technology Society**
 
+
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/ae715943-234f-461d-a4cb-dcc736cfd1c3" width="220"/></td>
+      <td><img src="https://github.com/user-attachments/assets/18def1a4-7b0e-4d4b-91b8-541c2ce9a5d5" width="220"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/abbaddbe-99fb-4482-8bb2-1799ebd68228" width="220"/></td>
+      <td><img src="https://github.com/user-attachments/assets/2fd988e1-cec4-4d3a-864d-0678e1629c1a" width="220"/></td>
+    </tr>
+  </table>
+</div>
+
+
 Each environment represents a unique stage of technological advancement and social change.
 
 Traditional learning about history or technological evolution through books or videos is often passive. It can be difficult for users to imagine how people lived or how technology influenced daily life in different periods.
@@ -46,6 +61,12 @@ Users start in the main room, go through a portal, explore the era, hover or tou
 
 **Prototypes**  
 We tested different portal designs, 360° videos, 360° images, and object interactions in Unity. Early tests helped us find the right scale for objects and portals and confirmed that users could follow the time travel loop naturally.
+
+## Project Design Document
+
+This document explains our idea, environments, interactions, and technical plan for the VR project.
+
+[Click here to view the document](https://docs.google.com/document/d/1YJHZa93wGpGbDA_h6KIHN1T9TJCvaz9-/edit?usp=drive_link&ouid=101592450684737266845&rtpof=true&sd=true)
 
 ---
 
