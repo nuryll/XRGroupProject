@@ -247,6 +247,7 @@ The hardware setup includes:
   
 <p align="center">
   <img src="https://github.com/user-attachments/assets/878d2be3-ddb7-43d5-b02d-8e79ea4ec330" width="400">
+  <img src="https://github.com/user-attachments/assets/ef484418-6d25-4049-ba83-2c2dc0702a45" width="400" height="215">
 </p>
 
 ---
