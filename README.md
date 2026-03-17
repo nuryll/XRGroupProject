@@ -23,12 +23,12 @@ The experience takes users through four different eras:
 <div align="center">
   <table>
     <tr>
+      <td><img src="https://github.com/user-attachments/assets/2fd988e1-cec4-4d3a-864d-0678e1629c1a" width="220"/></td>
       <td><img src="https://github.com/user-attachments/assets/ae715943-234f-461d-a4cb-dcc736cfd1c3" width="220"/></td>
-      <td><img src="https://github.com/user-attachments/assets/18def1a4-7b0e-4d4b-91b8-541c2ce9a5d5" width="220"/></td>
     </tr>
     <tr>
+      <td><img src="https://github.com/user-attachments/assets/18def1a4-7b0e-4d4b-91b8-541c2ce9a5d5" width="220"/></td>
       <td><img src="https://github.com/user-attachments/assets/abbaddbe-99fb-4482-8bb2-1799ebd68228" width="220"/></td>
-      <td><img src="https://github.com/user-attachments/assets/2fd988e1-cec4-4d3a-864d-0678e1629c1a" width="220"/></td>
     </tr>
   </table>
 </div>
