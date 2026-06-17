@@ -10,7 +10,7 @@
 
 # Introduction
 
-**ChronoPortals** is an immersive Extended Reality (XR) experience that allows users to travel through different periods of human history and technological development. By entering interactive portals, users can explore how society, technology, and everyday life have evolved across time.
+**ChronoPortals** is an immersive Virtual Reality (VR) experience that allows users to travel through different periods of human history and technological development. By entering interactive portals, users can explore how society, technology, and everyday life have evolved across time.
 
 The experience takes users through four different eras:
 
@@ -88,7 +88,7 @@ ChronoPortals includes the following features:
 - WebSocket communication between Unity and ESP32
 - Physical restart button to restart the entire experience
 
-Watch the demo video here: XR Time Machine Demo
+Watch the demo video here: VR Time Machine Demo
 
 ---
 
@@ -115,7 +115,7 @@ Below are some example environments from the experience.
 
 # Configuring Unity and Building for Meta Quest 2
 
-To run XR Time Machine on a Meta Quest 2 headset, the Unity project needs to be set up properly for Android VR. Follow these steps carefully.
+To run VR Time Machine on a Meta Quest 2 headset, the Unity project needs to be set up properly for Android VR. Follow these steps carefully.
 
 ## Step 1: Switch Unity to Android Platform
 
@@ -214,11 +214,11 @@ After building, always test the app on the headset to check that portals, intera
 
 # Installation
 
-To install and run XR Time Machine on Meta Quest 2 or Android:
+To install and run VR Time Machine on Meta Quest 2 or Android:
 
 | Platform | Device | Requirements | Commands / Steps |
 |--------|--------|-------------|----------------|
-| Android | Meta Quest 2 | Android 19+, XR Plugin Management, OpenXR | `git clone https://github.com/nuryll/XRGroupProject.git` <br> open MainScene.unity <br> Switch Platform to Android <br> Build and Run |
+| Android | Meta Quest 2 | Android 19+, XR Plugin Management, OpenXR | `git clone https://github.com/nuryll/VRChronoPortals.git` <br> open MainScene.unity <br> Switch Platform to Android <br> Build and Run |
 
 ### Dependencies and Libraries
 
